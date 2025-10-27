@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS characters (
-    id INTEGER PRIMARY KEY,
+    id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     name TEXT,
     status TEXT,
     species TEXT,
